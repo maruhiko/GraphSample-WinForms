@@ -25,7 +25,7 @@ namespace GraphSample
         double[] x = Enumerable.Range(0, n).Select(i => (double)i).ToArray();
 
         // 描画に必要な値
-        double currentTime = -100;  // 現在の時間
+        double currentTime = 0;  // 現在の時間
         double delta = 30;       // 現在から+-どれだけの範囲を表示するかの値
         double minX;             // 現在よりどれだけ過去まで表示するかの値
         double maxX;             // 現在よりどれだけ未来まで表示するかの値 
